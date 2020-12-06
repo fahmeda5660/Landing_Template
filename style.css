@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #16181a;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 100px
+}
+hr {
+    border-top: 1px solid white;
+}
+/* header-section */
+header li.nav-item {
+    padding: 0px 28px;
+}
+header .blue{
+    font-size: 18px;
+    font-weight: 500;
+    color: #68696A;
+    background-color: #6B6DFF;
+    border-radius: 5px;
+}
+header .doc{
+    font-size: 18px;
+    font-weight: 500;
+    color: #68696A;
+    margin-right: 40px;
+}
+/* header-section */
+/* landing-section */
+.landing-area  h1 span{
+	color:#5658DD;
+}
+.landing-content{
+    text-align: center;
+    color: #97A4AE;
+}
+.landing-area p{
+	font-size: 20px;
+	padding: 15px 225px;
+    padding-bottom: 30px;
+}
+.landing-area a{
+    text-decoration: none;
+}
+.get {
+    font-size: 16px;
+    background: #6B6DFF;
+    padding: 12px 33px;
+    margin-right: 20px;
+    color: #fff;
+    border-radius: 4px;
+}
+.view {
+    font-size: 16px;
+    padding: 12px 33px;
+    margin-right: 20px;
+    color: #fff;
+    border-radius: 4px;
+}
+/* video */
+video{
+    width: 900px;
+    height: 500px;
+    margin-top:100px;
+    position: relative;
+}
+.video-play{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+}
+.video-play .fas {
+    width: 20px;
+    height: 17px;
+    color: blue;
+    margin: 17px;
+}
+/* video */
+/* landing-section */
+/* build-up section */
+.build-content-section{
+    text-align: center;
+    color: #97A4AE;
+}
+.build-content-section p{
+	font-size: 20px;
+	padding: 15px;
+    padding-bottom: 30px;
+}
+.build-content-section a{
+    text-decoration: none;
+}
+.build-content-section .row .col-md-4 h2 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+}
+.build-content-section .row .col-md-4 i {
+    color: #fff;
+    font-size: 30px;
+    background-color: #6B6DFF;
+    padding: 21px;
+    border-radius: 50%;
+}
+/* build-up section */
+/* workflow */
+.workflow-section p{
+    font-size: 20px;
+    padding: 10px;
+    color: #97A4AE;
+}
+.workflow-content-section .row .col-md-6 p{
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    color: #97A4AE;
+}
+.workflow-content-section .row .col-md-6{
+    margin-bottom: 50px;
+}
+.workflow-content-section .row .col-md-6 img{
+    width: 530px;
+    height: 400px;
+}
+.workflow-content-section .row .col-md-6 h3{
+    text-align: left;
+    font-weight: 700;
+    color: #6B6DFF;
+    padding: 10px;
+    margin-top: 50px;
+}
+.workflow-content-section .row .col-md-6 h2{
+    text-align: left;
+    font-weight: 700;
+    color: #ffffff;
+    padding-left: 10px;
+}
+/* workflow */
+/* customer */
+.Customer_section p{
+    font-size: 20px;
+    padding: 10px;
+    color: #97A4AE;
+    text-align: left;
+}
+.Customer_section .img_style{
+    text-align: left;
+}
+.Customer_section .content_section_style{
+    height: 390px;
+    width: 348px;
+    background: #2e3236;
+    margin: 15px;
+    padding: 15px;
+}
+.Customer_section i{
+    color:#6B6DFF;
+    font-size: 22px;
+}
+/* customer */
+/* layout */
+.layout-content-section{
+    height: 175px;
+    width: 1128px;
+    background: #5658dd;
+    margin: 70px 0px;
+}
+.layout-content-section p {
+    font-size: 30px;
+    margin: 65px 45px;
+    font-weight: 600;
+    color: white;
+}
+.layout-content-section input {
+    margin-top: 57px;
+    font-size: 22px;
+    outline: none;
+    border: none;
+    padding: 12px;
+    padding-left: 22px;
+}
+.layout-content-section .row .col-lg-4{
+    position: relative;
+}
+.layout-content-section .row i {
+    position: absolute;
+    left: 74%;
+    bottom: 47%;
+    color: #5658dd;
+}
+/* layout */
+/* footer */
+.footer nav p {
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+}
+a.nav-link {
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer i{
+    color:#6B6DFF;
+    font-size: 20px;
+}
+.footer{
+    margin-bottom: 70px;
+}
+/* .footer .footer-margin {
+    margin-left: 982px;
+}
+.footer .copyright {
+    margin-right: 650px;
+} */
+/* footer */
